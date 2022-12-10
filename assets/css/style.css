@@ -1,0 +1,97 @@
+.container {
+    height: 100vh;
+}
+
+.text-header {
+    text-shadow: rgb(0, 0, 0) 1px 0 5px;
+    margin-top: 2%;
+}
+
+.carousel-item {
+    width: 100%;
+    height: 100%;
+    height: 100vh;
+}
+.carousel-item img {
+    height: 100vh;
+    width: 100%;
+    object-fit: cover;
+}
+
+.carousel-caption {
+    color: white !important;
+    text-shadow: rgb(0, 0, 0) 1px 0 5px;
+    font-size: 32px;
+    background-color: rgba(0, 0, 0, 0.412);
+}
+
+.text-header h1 {
+    color: white;
+    font-size: 52px;
+}
+
+.carousel-caption form button {
+    border: none;
+    border-radius: 50px;
+    padding: 5px 20px;
+    margin-bottom: 15px;
+}
+
+.carousel-caption form button:hover {
+    background-color: antiquewhite;
+}
+
+@media (max-width: 720px) {
+    body {
+        background-color: rgb(227, 198, 161);
+    }
+
+    .carousel-item img {
+        height: 100vh;
+        width: 100%;
+        object-fit: contain;
+    }
+
+    .text-header h1 {
+        color: rgb(106, 66, 20);
+        text-shadow: rgb(215, 197, 186) 5px 5px 2px;
+        font-size: 48px;
+        margin-top: 30px;
+    }
+
+    .carousel-caption {
+        color: black !important;
+        text-shadow: none;
+        font-size: 28px;
+        background-color: rgb(226, 224, 218);
+        margin: auto;
+        margin-bottom: 25px;
+        padding: 10px;
+        box-shadow: 2px 2px 3px rgb(106, 66, 20);
+    }
+
+    .carousel-caption form button {
+        background-color: rgb(201, 184, 165);
+    }
+
+    .carousel-caption form button:hover {
+        background-color: rgb(224, 209, 192);
+    }
+
+}
+
+@media (max-width: 400px) {
+    .text-header h1 {
+        color: rgb(106, 66, 20);
+        text-shadow: rgb(215, 197, 186) 5px 5px 2px;
+        font-size: 38px;
+        margin-top: 0px;
+    } 
+
+    .carousel-caption {
+        color: black !important;
+        text-shadow: none;
+        font-size: 16px;
+        background-color: rgb(226, 222, 218);
+    }
+}
