@@ -5,6 +5,6 @@ const validarDatos = () => {
         window.location.assign("main.html")
     }
     else {
-        alert("esanoe loco")
+        alert("Los datos ingresados no son correctos.")
     }
 }
