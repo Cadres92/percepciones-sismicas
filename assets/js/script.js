@@ -4,6 +4,9 @@ const validarDatos = () => {
     if (usuario === "inacap" && contraseña === "4310") {
         window.location.assign("main.html")
     }
+    else if (usuario === "camilo" && contraseña === "inacap") {
+        window.location.assign("main.html")
+    }
     else {
         alert("Los datos ingresados no son correctos.")
     }
