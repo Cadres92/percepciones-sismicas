@@ -17,3 +17,7 @@ a {
     text-decoration: none;
     color: white;
 }
+
+.container-alert {
+    width: 100% !important;
+}
